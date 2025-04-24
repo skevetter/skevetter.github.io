@@ -1,0 +1,38 @@
+baseURL = 'https://skevetter.github.io'
+languageCode = 'en-us'
+description = "Samuel's personal site"
+
+[module]
+[[module.imports]]
+path = 'github.com/adityatelange/hugo-PaperMod'
+
+
+[params]
+[params.profileMode]
+subtitle = "AI/ML Software Engineer and Open Source Contributor"
+enabled = true
+title = "Samuel K"
+imageUrl = "./profile.jpg"
+imageWidth = 256
+imageHeight = 256
+extraText = "Howdy! If you have questions or exciting opportunities, feel free to connect with me. I am always open to new ideas and collaborations."
+
+[[params.socialIcons]]
+name = "cv"
+url = "./resume.pdf"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:samuelkevetter@gmail.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/skevetter"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/samuel-kevetter/"
+
+[[params.socialIcons]]
+name = "pgp"
+url = "./pgp.txt"
