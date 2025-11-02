@@ -1,38 +1,59 @@
 baseURL = 'https://skevetter.github.io'
 languageCode = 'en-us'
-description = "Samuel's personal site"
+copyright = "© 2025 · SK Consulting"
+description = "Senior Engineer specializing in AI/LLM applications, cloud-native infrastructure, and open source development"
 
 [module]
 [[module.imports]]
 path = 'github.com/adityatelange/hugo-PaperMod'
 
-
 [params]
+env = "production"
+defaultTheme = "auto"
+ShowShareButtons = false
+ShowReadingTime = false
+ShowBreadCrumbs = false
+ShowPostNavLinks = false
+ShowCodeCopyButtons = true
+disableThemeToggle = false
+
 [params.profileMode]
-subtitle = "AI/ML Software Engineer and Open Source Contributor"
 enabled = true
 title = "Samuel K"
+subtitle = "Technical Leader | Senior Engineer"
 imageUrl = "./profile.jpg"
 imageWidth = 256
 imageHeight = 256
-extraText = "Howdy! If you have questions or exciting opportunities, feel free to connect with me. I am always open to new ideas and collaborations."
+extraText = """
+I specialize in AI/ML and LLM applications, cloud-native infrastructure (Docker, Kubernetes, CNCF, OCI), and systems programming in Rust. Open to consulting services and projects in these areas. [Schedule a meeting](https://cal.com/skevetter).
+"""
 
 [[params.socialIcons]]
-name = "cv"
-url = "./resume.pdf"
+name = "calendar"
+url = "https://cal.com/skevetter"
+title = "Schedule a Meeting"
 
 [[params.socialIcons]]
 name = "email"
 url = "mailto:samuelkevetter@gmail.com"
+title = "Email Me"
 
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/skevetter"
+title = "GitHub Profile"
 
 [[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/samuel-kevetter/"
+title = "LinkedIn Profile"
+
+[[params.socialIcons]]
+name = "cv"
+url = "./resume.pdf"
+title = "Download Resume"
 
 [[params.socialIcons]]
 name = "pgp"
 url = "./pgp.txt"
+title = "PGP Public Key"

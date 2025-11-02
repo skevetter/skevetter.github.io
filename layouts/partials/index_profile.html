@@ -32,12 +32,13 @@
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
+        
         {{- partial "social_icons.html" -}}
 
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}" {{- if (findRE "://" .url) }} target="_blank"{{- end }}>
                 <span class="button-inner">
                     {{ .name }}
                     {{- if (findRE "://" .url) }}&nbsp;
