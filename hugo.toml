@@ -20,7 +20,7 @@ disableThemeToggle = false
 [params.profileMode]
 enabled = true
 title = "Samuel K"
-subtitle = "Technical Leader | Senior Engineer"
+subtitle = "Technical Leader | Senior Software Engineer"
 imageUrl = "./profile.jpg"
 imageWidth = 256
 imageHeight = 256
