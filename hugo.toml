@@ -20,12 +20,12 @@ disableThemeToggle = false
 [params.profileMode]
 enabled = true
 title = "Samuel K"
-subtitle = "Technical Leader | Senior Software Engineer"
-imageUrl = "./profile.jpg"
+subtitle = "Senior Engineering Consultant in AI, Cloud, and Cybersecurity"
+imageUrl = "./profile.png"
 imageWidth = 256
 imageHeight = 256
 extraText = """
-I specialize in AI/ML and LLM applications, cloud-native infrastructure (Docker, Kubernetes, CNCF, OCI), and systems programming in Rust. Open to consulting services and projects in these areas. [Schedule a meeting](https://cal.com/skevetter).
+I specialize in AI/ML and LLM applications, cloud-native infrastructure (Docker, Kubernetes, CNCF, OCI), and systems programming in Go and Rust. Open to consulting services and projects in these areas. [Schedule a meeting](https://cal.com/skevetter).
 """
 
 [[params.socialIcons]]
