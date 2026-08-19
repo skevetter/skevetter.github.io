@@ -4,7 +4,7 @@
     --button-hover-color: rgb(30, 30, 30);
 }
 
-.dark {
+:root[data-theme="dark"] {
     --button-hover-bg: #c6a0f6;
     --button-hover-color: #24273a;
     --social-hover-bg: #363a4f;
@@ -117,13 +117,13 @@
     box-shadow: 0 6px 20px rgba(74, 90, 232, 0.5);
 }
 
-.dark .button:first-child {
+[data-theme="dark"] .button:first-child {
     background: #7c8aef;
     color: #1a1d2e;
     font-weight: 700;
 }
 
-.dark .button:first-child:hover {
+[data-theme="dark"] .button:first-child:hover {
     background: #6877e8;
     color: #1a1d2e;
     box-shadow: 0 6px 24px rgba(124, 138, 239, 0.5);
@@ -212,12 +212,12 @@
     outline: none;
 }
 
-.dark .profile__extra-text a {
+[data-theme="dark"] .profile__extra-text a {
     color: #c6a0f6;
 }
 
-.dark .profile__extra-text a:hover,
-.dark .profile__extra-text a:focus {
+[data-theme="dark"] .profile__extra-text a:hover,
+[data-theme="dark"] .profile__extra-text a:focus {
     color: var(--primary);
     background: var(--social-hover-bg);
     border-radius: 4px;
@@ -249,24 +249,24 @@
     }
 }
 
-.dark .profile__extra-text {
+[data-theme="dark"] .profile__extra-text {
     background: var(--entry);
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
 }
 
-.dark .button {
+[data-theme="dark"] .button {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-.dark .button:hover {
+[data-theme="dark"] .button:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
 }
 
-.dark .social-icons a {
+[data-theme="dark"] .social-icons a {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.dark .social-icons a:hover {
+[data-theme="dark"] .social-icons a:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
 }
 
