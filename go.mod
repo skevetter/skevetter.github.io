@@ -1,5 +1,5 @@
 module github.com/skevetter/skevetter.github.io
 
-go 1.24.2
+go 1.26.5
 
-require github.com/adityatelange/hugo-PaperMod v0.0.0-20250420061623-7cf752f8644f // indirect
+require github.com/adityatelange/hugo-PaperMod v0.0.0-20260802175912-d3768854d00a // indirect
