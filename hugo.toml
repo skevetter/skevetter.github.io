@@ -20,7 +20,7 @@ disableThemeToggle = false
 [params.profileMode]
 enabled = true
 title = "Samuel K"
-subtitle = "Senior Engineering Consultant in AI, Cloud, and Cybersecurity"
+subtitle = "Senior Engineering Consultant for AI, Cloud, and Cybersecurity"
 imageUrl = "./profile.png"
 imageWidth = 256
 imageHeight = 256
